@@ -44,7 +44,7 @@ def recommend(movie_name):
     return l
 
 movies=pd.read_csv("C:/Users/MEDHA TRUST/Desktop/Sheshu/tmdb_5000_movies.csv")
-credits=pd.read_csv("C:/Users/MEDHA TRUST/Desktop/Sheshu/Movie Recommendation/Movie_Recomender_1/tmdb_5000_credits.csv")
+credits=pd.read_csv("https://github.com/Shesh009/English_movie_Recommendation/blob/master/tmdb_5000_credits.csv")
 
 data=movies.merge(credits,on="title")
 data.dropna(inplace=True)
