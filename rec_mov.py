@@ -44,8 +44,8 @@ def recommend(movie_name):
         l.append(movies.iloc[i[0]].title)
     return l
 
-movies=pd.read_csv("https://github.com/Shesh009/English_movie_Recommendation/blob/master/tmdb_5000_movies.csv")
-credits=pd.read_csv("https://github.com/Shesh009/English_movie_Recommendation/blob/master/tmdb_5000_credits.csv")
+movies=pd.read_csv("tmdb_5000_movies.csv")
+credits=pd.read_csv("tmdb_5000_credits.csv")
 
 data=movies.merge(credits,on="title")
 data.dropna(inplace=True)
