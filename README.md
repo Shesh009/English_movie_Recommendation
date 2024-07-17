@@ -56,7 +56,7 @@ The project is deployed using [Render](https://movie-recommendation-hwn5.onrende
 
 ## Example
 
-![Screenshot](![Screenshot 2024-07-17 104758](https://github.com/user-attachments/assets/1bbdaf53-d566-4fb3-a4a4-7fdc5ca6767a))
+![Screenshot](https://github.com/user-attachments/assets/1bbdaf53-d566-4fb3-a4a4-7fdc5ca6767a)
 
 
 ## Credits
